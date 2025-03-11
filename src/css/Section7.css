@@ -1,0 +1,133 @@
+/* 메인페이지 */
+
+.voc{
+    width: 70%; 
+    margin: 100px auto;
+    height: max-content;
+}
+.voc dl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.voc dl dt{font-size: 2.5rem; 
+    font-weight: 600;}
+
+.voc dl dd{font-size: 1.5rem;
+     color: #0166B3; 
+     font-weight: 700;
+    }
+
+.voc dl dd:nth-of-type(2){
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.voc span{color: #0166B3;}
+
+.voc .more{
+    font-size: 1rem;
+    width: max-content; 
+    padding: 10px 25px; 
+    background: #0166B3;
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid #0166B3;
+    transition: all .5s ease-out;
+}
+.voc .more:hover{
+    background: #fff;
+    color: #0166B3;
+    border: 1px solid #0166B3;
+    transition: all .5s ease-out;
+}
+
+.voc .box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.voc .icon{
+    font-size: 9rem;
+    color: #ccc;
+}
+
+@media screen and (max-width:1410px) {
+    .voc dl dt{font-size: 2rem;}
+
+}
+
+
+@media screen and (max-width:1280px) {
+    .voc dl dt {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .voc{width: 80%;}
+    .voc dl dt {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .voc dl dt {
+        font-size: 1.4rem;
+    }
+    .voc dl dd:nth-of-type(2) {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .voc dl dt>br{display: none;}
+}
+
+@media screen and (max-width:768px) {
+    .voc{width: 90%;}
+    .voc dl dt {font-size: 1.7rem;}
+    .voc .icon{width: 7rem;}
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:360px) {
+    .voc dl dt {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+    .voc dl dd {
+        font-size: 1.3rem;
+    }
+
+    .voc .box1 {
+        height: 80px;
+    }
+
+    .voc .icon {
+        width: 5rem;
+    }
+
+    footer .top {
+        flex-direction: row;
+    }
+
+    footer .familysiteWrap {
+        flex-direction: column;
+    }
+
+    footer .rule {
+        flex-direction: column;
+        gap: 10px;
+        font-size: .89rem;
+        align-items: center;
+    }
+
+}

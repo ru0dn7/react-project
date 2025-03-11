@@ -1,0 +1,52 @@
+.sub_page2{width: 70%; margin: 150px auto; height: max-content; margin-bottom: 100px;}
+.sub_page2 .ceo_strong{width: 70%; border-radius: 40px 0 ; margin: 50px auto; text-align: center; padding: 20px; background: #0166B3;}
+.sub_page2 .ceo_strong strong{font-size: 2rem; color: #fff; padding: 20px; }
+.sub_page2 .ceo_box{display: flex; justify-content: space-between; gap: 50px; width: 100%;}
+.sub_page2 .ceo_box .ceo_img{ width: 100%; height: 450px; background: url("../../images/sub1/sub01.jpg") no-repeat; 
+    background-position: center; background-size: contain;}
+.sub_page2 .ceo_box .ceo_right{width: 100%;}
+.sub_page2 .addText{display: none; text-align: center;}
+.sub_page2 .addText>span{font-size: 1.2rem; width: 70%; font-weight: 500; line-height: 2.2rem;}
+.sub_page2 .ceo_box .ceo_text1{line-height: 2rem; margin-top: 20px; text-align: right;}
+.sub_page2 .ceo_box .ceo_text2{text-align: right; font-size: 1.2rem; margin-top: 50px;}
+.sub_page2 .ceo_box .ceo_right .ceo_text1 span{font-weight: 500; font-size: 1.4rem; line-height: 2.5rem;}
+
+@media screen and (max-width:1500px){
+    .sub_page2 .ceo_strong{width: 100%;}
+}
+@media screen and (max-width:1280px){
+    .sub_page2{width: 80%;}
+    .sub_page2 .ceo_box{gap: 30px;}
+    .sub_page2 .ceo_box .ceo_right .ceo_text1 span{font-weight: 500; font-size: 1.2rem; line-height: 2.2rem;}
+    .sub_page2 .ceo_box .ceo_text2{margin-top: 30px;}
+}
+
+@media screen and (max-width:1024px){
+    .sub_page2 .addText{display: block;}
+    .sub_page2 .ceo_box .ceo_text1>span{display: none;}
+}
+
+@media screen and (max-width:900px){
+    .sub_page2 .ceo_strong strong{font-size: 1.6rem;}
+    .sub_page2 .ceo_box {display: unset;}
+    .sub_page2 .ceo_box .ceo_img {margin: 50px 0 0;}
+
+}
+
+@media screen and (max-width:768px){
+    .sub_page2{width: 90%;}
+}
+
+@media screen and (max-width:640px){
+    .sub_page2 .ceo_strong strong{font-size: 1.5rem;}
+    .sub_page2 .addText>span {font-size: 1rem; line-height: 2rem; }
+    .css-19kzrtu {  padding: 0;}
+}
+
+@media screen and (max-width:360px){
+    .sub_page2{width: 95%;}
+    .sub_page2 .ceo_box .ceo_img {margin: 0;}
+    .sub_page2 .ceo_strong strong{font-size: 1.3rem;}
+
+}
+

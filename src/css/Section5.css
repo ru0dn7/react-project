@@ -1,0 +1,146 @@
+.vr {margin: 100px auto;}
+.vr .inner {width: 70%; margin: 0 auto;}
+.vr .text1{color: #0166B3; font-size: 1.3rem; margin-bottom: 10px; font-weight: 700; margin-bottom: 15px;}
+.vr .text2{font-size: 2.5rem; line-height: 3.5rem; font-weight: 700; margin-bottom: 100px; color: #333;}
+.vr .VrTour>div{background: url("../images/vr/Train.png") no-repeat; width: 100%; height: 35vh; margin-left: 300px;}
+
+
+
+.vr .VrTour{display: flex; justify-content: flex-end; position: relative;} 
+.vr .VrTour ul {position: absolute; width: 100%; height: 100%;}
+.vr .VrTour ul li a { display: inline-block; font-size: 1.2rem; color: #333; font-weight: 650; display: flex; justify-content: space-around; position: relative; }
+.vr .VrTour ul li:first-child a,.vr .VrTour ul li:nth-child(3) a { margin-left: 25px;}
+.vr .VrTour ul li:nth-child(2) a { margin-left: 41px;}
+.vr .VrTour ul li a span {background: #005BAC; color: #fff; padding: 4px; border-radius: 50%; 
+    display: flex; align-items: center; justify-content: center; border: 1px solid #fff;
+    transition: all .5s ease-out;}
+
+.vr .VrTour ul li{ position: absolute; border: 1px solid #fff;
+    font-size: 1rem; background:#fff; color: #050D1B; 
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    text-align: center; width: 200px; height: 35px; font-weight: 500;
+    border-radius: 20px 20px 20px 0; padding-top: 8px; cursor: pointer;
+    }
+    
+
+/* 호버 */
+
+
+.vr .VrTour ul li:hover a span{
+    background: #fff;
+    color: #005BAC;
+    transition: all .5s ease-out;
+    border: 1px solid #005BAC;
+}
+
+
+.vr .VrTour .map_point{ position: absolute; top: 33px; left: -22px; width: 40px; height: 40px; z-index: 0;}
+     
+        @keyframes expand {
+           0% {
+             transform: scale(1);
+             opacity: 1;
+           }
+           100% {
+             transform: scale(2);
+             opacity: 0;
+           }
+         }
+     
+.vr .VrTour .map_point span{
+        display: block;
+        position: absolute;
+        top: -7px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #5bbef7;
+        opacity: 1;
+        animation: expand 1s cubic-bezier(0.22, 0.61, 0.36, 0.5) infinite;}
+     
+.vr .VrTour .map_point span:nth-of-type(2){animation-delay: 0.6s; background: #065f9b2a;}
+     
+.vr .VrTour .map_point em{
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 12px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #8abcf3;}
+    
+
+    
+    .vr .VrTour ul li:nth-of-type(1){left: 500px; bottom: 250px;}
+    .vr .VrTour ul li:nth-of-type(2){left: 750px; bottom: 220px;}
+    .vr .VrTour ul li:nth-of-type(3){left: 1100px; bottom: 250px;}
+
+    @media (max-width: 1280px) {
+        .vr .VrTour ul li:nth-of-type(3){display: none;}
+        .vr .text2{font-size: 2.2rem; line-height: 3.3rem;}
+        .vr .VrTour>div {
+            margin-left: 200px;
+        }
+
+        .vr .VrTour ul li:nth-of-type(1) {
+            left: 400px;
+        }
+        .vr .VrTour ul li:nth-of-type(2) {
+            left: 650px;
+        }
+        
+    }
+
+    @media (max-width: 1024px) {
+        .vr .text2{line-height: 3.1rem;}
+        .vr .VrTour>div {
+            margin-left: 150px;
+        }
+
+        .vr .VrTour ul li:nth-of-type(1) {
+            left: 350px;
+        }
+    }
+
+
+    @media (max-width: 900px) {
+        .vr .VrTour ul li:nth-of-type(2){display: none;}
+    }
+
+    @media (max-width: 768px) {
+        .vr .inner {width: 90%;}
+        .vr .VrTour>div {
+            margin-left: 50px;
+        }
+        .vr .VrTour ul li:nth-of-type(1) {
+            left: 250px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .vr .text1{  font-size: 1.1rem; margin-bottom: 10px;}
+        .vr .text2{font-size: 2rem; line-height: 2.9rem;}
+    }
+
+    @media (max-width: 360px) {
+        .vr .VrTour ul li:nth-of-type(1){
+            left: 140px;
+            bottom: 190px;
+        }
+        .vr .VrTour ul li:first-child a,
+        .vr .VrTour ul li:nth-child(3) a{
+            margin-left: 10px;
+        }
+        .vr .text1{
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+        }
+        .vr .text2{
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            
+        }
+
+    }

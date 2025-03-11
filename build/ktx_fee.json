@@ -1,0 +1,390 @@
+{
+"ktx":[
+    {
+        "dep": "서울",
+        "arr": "광명",
+        "standard": 8400,
+        "Excellent_charge": 3000,
+        "First_charge": 4800
+       },
+       {
+        "dep": "서울",
+        "arr": "천안아산",
+        "standard": 14100,
+        "Excellent_charge": 3000,
+        "First_charge": 5600
+       },
+       {
+        "dep": "서울",
+        "arr": "오송",
+        "standard": 18500,
+        "Excellent_charge": 3700,
+        "First_charge": 7400
+       },
+       {
+        "dep": "서울",
+        "arr": "대전",
+        "standard": 23700,
+        "Excellent_charge": 4700,
+        "First_charge": 9500
+       },
+       {
+        "dep": "서울",
+        "arr": "김천구미",
+        "standard": 35100,
+        "Excellent_charge": 7000,
+        "First_charge": 14000
+       },
+       {
+        "dep": "서울",
+        "arr": "동대구",
+        "standard": 43500,
+        "Excellent_charge": 8700,
+        "First_charge": 17400
+       },
+       {
+        "dep": "서울",
+        "arr": "경주",
+        "standard": 49300,
+        "Excellent_charge": 9900,
+        "First_charge": 19700
+       },
+       {
+        "dep": "서울",
+        "arr": "울산",
+        "standard": 53500,
+        "Excellent_charge": 10700,
+        "First_charge": 21400
+       },
+       {
+        "dep": "서울",
+        "arr": "부산",
+        "standard": 59800,
+        "Excellent_charge": 12000,
+        "First_charge": 23900
+       },
+ {
+  "dep": "행신",
+  "arr": "서울",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "행신",
+  "arr": "광명",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "행신",
+  "arr": "천안아산",
+  "standard": 15600,
+  "Excellent_charge": 3100,
+  "First_charge": 6200
+ },
+ {
+  "dep": "행신",
+  "arr": "오송",
+  "standard": 20100,
+  "Excellent_charge": 4000,
+  "First_charge": 8000
+ },
+ {
+  "dep": "행신",
+  "arr": "대전",
+  "standard": 25200,
+  "Excellent_charge": 5000,
+  "First_charge": 10100
+ },
+ {
+  "dep": "행신",
+  "arr": "김천구미",
+  "standard": 36400,
+  "Excellent_charge": 7300,
+  "First_charge": 14600
+ },
+ {
+  "dep": "행신",
+  "arr": "동대구",
+  "standard": 44900,
+  "Excellent_charge": 9000,
+  "First_charge": 18000
+ },
+ {
+  "dep": "행신",
+  "arr": "경주",
+  "standard": 50600,
+  "Excellent_charge": 10100,
+  "First_charge": 20200
+ },
+ {
+  "dep": "행신",
+  "arr": "울산",
+  "standard": 54800,
+  "Excellent_charge": 11000,
+  "First_charge": 21900
+ },
+ {
+  "dep": "행신",
+  "arr": "부산",
+  "standard": 61100,
+  "Excellent_charge": 12200,
+  "First_charge": 24400
+ },
+ 
+ {
+  "dep": "광명",
+  "arr": "천안아산",
+  "standard": 11600,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "광명",
+  "arr": "오송",
+  "standard": 16100,
+  "Excellent_charge": 3200,
+  "First_charge": 6400
+ },
+ {
+  "dep": "광명",
+  "arr": "대전",
+  "standard": 21200,
+  "Excellent_charge": 4200,
+  "First_charge": 8500
+ },
+ {
+  "dep": "광명",
+  "arr": "김천구미",
+  "standard": 32900,
+  "Excellent_charge": 6600,
+  "First_charge": 13200
+ },
+ {
+  "dep": "광명",
+  "arr": "동대구",
+  "standard": 41300,
+  "Excellent_charge": 8300,
+  "First_charge": 16500
+ },
+ {
+  "dep": "광명",
+  "arr": "경주",
+  "standard": 47100,
+  "Excellent_charge": 9400,
+  "First_charge": 18800
+ },
+ {
+  "dep": "광명",
+  "arr": "울산",
+  "standard": 51300,
+  "Excellent_charge": 10300,
+  "First_charge": 20500
+ },
+ {
+  "dep": "광명",
+  "arr": "부산",
+  "standard": 57700,
+  "Excellent_charge": 11500,
+  "First_charge": 23100
+ },
+ {
+  "dep": "천안아산",
+  "arr": "오송",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "천안아산",
+  "arr": "대전",
+  "standard": 9600,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "천안아산",
+  "arr": "김천구미",
+  "standard": 21500,
+  "Excellent_charge": 4300,
+  "First_charge": 8600
+ },
+ {
+  "dep": "천안아산",
+  "arr": "동대구",
+  "standard": 29300,
+  "Excellent_charge": 5900,
+  "First_charge": 11700
+ },
+ {
+  "dep": "천안아산",
+  "arr": "경주",
+  "standard": 34900,
+  "Excellent_charge": 7000,
+  "First_charge": 14000
+ },
+ {
+  "dep": "천안아산",
+  "arr": "울산",
+  "standard": 40200,
+  "Excellent_charge": 8000,
+  "First_charge": 16100
+ },
+ {
+  "dep": "천안아산",
+  "arr": "부산",
+  "standard": 46500,
+  "Excellent_charge": 9300,
+  "First_charge": 18600
+ },
+ {
+  "dep": "오송",
+  "arr": "대전",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "오송",
+  "arr": "김천구미",
+  "standard": 17000,
+  "Excellent_charge": 3400,
+  "First_charge": 6800
+ },
+ {
+  "dep": "오송",
+  "arr": "동대구",
+  "standard": 24800,
+  "Excellent_charge": 5000,
+  "First_charge": 9900
+ },
+ {
+  "dep": "오송",
+  "arr": "경주",
+  "standard": 30700,
+  "Excellent_charge": 6100,
+  "First_charge": 12300
+ },
+ {
+  "dep": "오송",
+  "arr": "울산",
+  "standard": 34800,
+  "Excellent_charge": 7000,
+  "First_charge": 13900
+ },
+ {
+  "dep": "오송",
+  "arr": "부산",
+  "standard": 42200,
+  "Excellent_charge": 8400,
+  "First_charge": 16900
+ },
+ {
+  "dep": "대전",
+  "arr": "김천구미",
+  "standard": 11900,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "대전",
+  "arr": "동대구",
+  "standard": 19700,
+  "Excellent_charge": 3900,
+  "First_charge": 7900
+ },
+ {
+  "dep": "대전",
+  "arr": "경주",
+  "standard": 25800,
+  "Excellent_charge": 5200,
+  "First_charge": 10300
+ },
+ {
+  "dep": "대전",
+  "arr": "울산",
+  "standard": 30100,
+  "Excellent_charge": 6000,
+  "First_charge": 12000
+ },
+ {
+  "dep": "대전",
+  "arr": "부산",
+  "standard": 36200,
+  "Excellent_charge": 7200,
+  "First_charge": 14500
+ },
+ {
+  "dep": "김천구미",
+  "arr": "동대구",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "김천구미",
+  "arr": "경주",
+  "standard": 13800,
+  "Excellent_charge": 3000,
+  "First_charge": 5500
+ },
+ {
+  "dep": "김천구미",
+  "arr": "울산",
+  "standard": 18200,
+  "Excellent_charge": 3600,
+  "First_charge": 7300
+ },
+ {
+  "dep": "김천구미",
+  "arr": "부산",
+  "standard": 24900,
+  "Excellent_charge": 5000,
+  "First_charge": 10000
+ },
+ {
+  "dep": "동대구",
+  "arr": "경주",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "동대구",
+  "arr": "울산",
+  "standard": 10500,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "동대구",
+  "arr": "부산",
+  "standard": 17100,
+  "Excellent_charge": 3400,
+  "First_charge": 6800
+ },
+ {
+  "dep": "경주",
+  "arr": "울산",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "경주",
+  "arr": "부산",
+  "standard": 11000,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ },
+ {
+  "dep": "울산",
+  "arr": "부산",
+  "standard": 8400,
+  "Excellent_charge": 3000,
+  "First_charge": 4800
+ }
+]
+}

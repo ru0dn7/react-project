@@ -1,0 +1,265 @@
+.Businesses {
+  position: relative;
+  max-width: 2000px;
+  margin: 100px auto;
+  text-align: center;
+}
+.Businesses > p {
+  color: #0166b3;
+  font-size: 1.3rem;
+  font-weight: 800;
+  width: 70%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.Businesses_txt {
+  width: 70%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Businesses_txt span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #414141;
+}
+
+.Businesses_txt p {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #5e5e5e;
+  margin-top: 44px;
+}
+
+.sec3Icon{display: flex; width: 60%;}
+.sec3Icon svg{font-size: 2rem; padding: 15px 15px 0; color: #fff; transition: all .5s ease-out;}
+.sec3Icon svg:hover{color: #0166B3;}
+
+.sec3-swiper-wrap {
+  width: 100%;
+  margin: 35px 0;
+  padding: 0 13%;
+  height: 600px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.sec3-swiper-wrap .swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.sec3-swiper-wrap .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec3-swiper-wrap .swiper-slide .slide-item {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  border-radius: 70px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.sec3-swiper-wrap .swiper-slide-active .slide-item {
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  display: block;
+}
+
+.sec3-swiper-wrap .swiper-slide .slide-item .text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+  z-index: 9;
+}
+.sec3-swiper-wrap .swiper-slide .slide-item .text {
+  opacity: 0;
+}
+.sec3-swiper-wrap .swiper-slide-active .slide-item .text {
+  opacity: 1;
+}
+.sec3-swiper-wrap .swiper-slide .slide-item .text span {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.sec3-swiper-wrap .swiper-slide .slide-item img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.sec3-swiper-wrap .swiper-button-prev,
+.sec3-swiper-wrap .swiper-button-next {
+  width: 92px;
+  height: 92px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 8px 6px -6px #666;
+}
+.sec3-swiper-wrap .swiper-button-prev {
+  left: -36px;
+  right: auto;
+}
+.sec3-swiper-wrap .swiper-button-next {
+  right: -36px;
+}
+
+.sec3-swiper-wrap .swiper-button-prev:after,
+.sec3-swiper-wrap .swiper-button-next:after {
+  color: #333;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1440px) {
+  .sec3-swiper-wrap {
+    height: 420px;
+  }
+
+  .sec3-swiper-wrap .swiper-button-prev,
+  .sec3-swiper-wrap .swiper-button-next {
+    width: 70px;
+    height: 70px;
+  }
+  .sec3-swiper-wrap .swiper-button-prev:after,
+  .sec3-swiper-wrap .swiper-button-next:after {
+    font-size: 2.4rem;
+  }
+
+  .Businesses_txt span {
+    font-size: 2.5rem;
+  }
+
+  .Businesses_txt p {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .Businesses > p {
+    font-size: 1.3rem;
+  }
+  .Businesses_txt span {
+    font-size: 2.2rem;
+  }
+  .sec3-swiper-wrap {
+    height: 380px;
+  }
+  .Businesses_txt {
+    flex-direction: column;
+    text-align: left;
+  }
+  .Businesses h3 {
+    font-size: 1.5rem;
+  }
+
+  .Businesses_txt span {
+    font-size: 2rem;
+  }
+
+  .Businesses_txt p {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Businesses>p{width: 80%;}
+  .Businesses_txt {width: 80%;}
+  .sec3Icon svg{font-size: 2rem; padding: 10px 10px 0;}
+  .sec3-swiper-wrap .swiper-slide .slide-item {
+    height: 60%;
+  }
+  .sec3-swiper-wrap .swiper-slide-active .slide-item {
+    height: 100%;
+  }
+
+  .sec3-swiper-wrap .swiper-slide .slide-item .text {
+    font-size: 2rem;
+  }
+  .sec3-swiper-wrap .swiper-slide .slide-item .text span {
+    margin-top: 20px;
+  }
+  .sec3-swiper-wrap .swiper-button-prev,
+  .sec3-swiper-wrap .swiper-button-next {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec3-swiper-wrap .swiper-button-prev {
+    left: -22px;
+  }
+  .sec3-swiper-wrap .swiper-button-next {
+    right: -22px;
+  }
+
+  .sec3-swiper-wrap .swiper-button-prev:after,
+  .sec3-swiper-wrap .swiper-button-next:after {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Businesses>p{width: 90%;}
+  .Businesses_txt {width: 90%;}
+  .Businesses_txt p {display: none;}
+  .sec3Icon svg{font-size: 1.5rem; padding: 5px 5px 0;}
+  .sec3-swiper-wrap .swiper-slide .slide-item {
+    /* height: 0; */
+    transition: none;
+  }
+  .sec3-swiper-wrap .swiper-slide .slide-item .text {
+    font-size: 1.4rem;
+  }
+  .sec3-swiper-wrap .swiper-slide .slide-item .text span {
+    font-size: 0.8rem;
+  }
+  .sec3-swiper-wrap .swiper-slide-active .slide-item {
+    height: 100%;
+  }
+  .sec3-swiper-wrap {
+    padding: 0 5%;
+  }
+  .sec3-swiper-wrap .swiper-button-next {
+    right: 5px;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+  }
+  .sec3-swiper-wrap .swiper-button-prev {
+    left: 5px;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Businesses > p {
+    font-size: 1.1rem;
+  }
+  .Businesses_txt span {
+    font-size: 2rem;
+  }
+}

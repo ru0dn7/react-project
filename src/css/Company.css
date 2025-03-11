@@ -1,0 +1,21 @@
+.css-1wxkzlj-MuiTabs-flexContainer { display: flex; justify-content: space-around;}
+.css-1xe9pqz {margin: 100px auto; width: 100%;  text-align: center;}
+
+.sub1_top {
+    width: 100%;
+    height: 400px;
+    background: url("../images/sub1/sub1_bg.jpg") center/cover no-repeat;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+
+.sub1 .title{text-align: center; margin-top: 150px;}
+.sub1 .title h3{font-size: 3rem;}
+.sub1 .title p{font-size: 1.5rem; color: #0166B3; font-weight: 600;}
+
+.css-1cuoivm{padding-top:100px}
+.css-hzcega-MuiTabs-list{justify-content: center;}
+.css-162tvoi{justify-content: center;}

@@ -1,0 +1,5 @@
+
+section6 - mui 라이브러리 설치 (출발지, 도착지 selectBox)
+	$ npm install @mui/material @emotion/react @emotion/styled
+
+npm i react-scroll

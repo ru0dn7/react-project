@@ -1,38 +1,524 @@
-.App {
+
+/* header */
+header {
+    width: 100%;
+    height: max-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: background-color .5s;
+}
+
+header.up {
+  background: rgb(255 255 255 / 60%);
+  backdrop-filter: blur(20px);
+}
+
+header.up:hover{
+  background: #fff;
+}
+
+
+header.down {
+  background-color: #fff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.205);
+  z-index: 99;
+}
+
+header.down .header_inner{
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+}
+
+header.down .header_inner nav{
+  width: 60%;
+}
+
+/* header.down .header_inner:hover nav {
+  width: 70%;
+} */
+header.down .header_inner h1{
+  width: max-content;
+}
+
+header .header_inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 150px;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+/* header .header_inner:hover nav {
+  width: 80%;
+  transition: all .5s ease-out;
+} */
+
+header .header_inner nav {
+  width: 70%;
+  transition: all .5s ease-out;
+}
+
+header .header_inner nav ul {
+  display: flex;
+}
+
+header .header_inner nav ul li {
+  width: 20%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header .header_inner nav ul li a {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  transition: all .5s ease-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header .header_inner h1 {
+  width: max-content;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+header button {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  cursor: pointer;
+  background: none;
+  display: none;
+}
+
+header button .ico {
+  font-size: 1.5rem;
+  z-index: 11;
+  color: #005BAC;
+}
+
+
+/* content */
+#content{background:#fff;}
+
+
+/* footer */
+footer {
+  width: 100%;
+  height: max-content;
+  background: #005BAC;
+}
+
+.footerInner {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 40px 0;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 25px;
   align-items: center;
+}
+
+footer span {
+  color: #f4f4f4;
+}
+
+footer .rule {
+  display: flex;
+  gap: 30px;
+}
+
+
+/* familysite */
+footer .familysiteWrap{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+footer .familysite{
+  width: 150px;
+  text-align: center;
+  position: relative;
+}
+
+footer .familysite ul{
+  border: 1px solid #005BAC;
+  background: #005BAC;
+  color: #fff;
+  width: max-content;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 149px;
+}
+
+footer .familysite ul li{
+  padding: 10px;
+}
+
+footer .familysite ul li:hover {
+  background: #fff;
+  color: #005BAC;
+}
+
+footer .familysite ul a {
+  color: #fff;
+}
+
+footer .familysite ul li:hover a {
+  color: #005BAC;
+}
+
+footer .familysite button {
+  color: #005BAC;
+  background: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #005BAC;
+  width: 150px;
+  padding: 8px;
+  font-weight: 500;
+  transition: all .5s ease-out;
+}
+
+footer .familysite button:hover{
+  background: #005BAC;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all .5s ease-out;
+}
+
+
+/* 화살표 변경 */
+footer .familysite button .arrow{
+  margin: 5px 0 0 20px;
+  transition: transform 0.3s ease;
+}
+
+footer .familysite button .arrow.rotate {
+  transform: rotate(180deg);
+}
+
+/* 사이트 위로 보기 */
+footer .familysite ul.show{
+  display: block;
+
+}
+
+footer .familysite ul.hide{
+  display: none;
+
+}
+
+footer .familysite ul.show2 {
+  display: block;
+  width: 148px;
+
+}
+
+footer .familysite ul.hide2 {
+  display: none;
+}
+
+footer .sns {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+  height: 30px;
+}
+
+footer .bottomWrap .info {
+  width: 90%;
+  margin-top: 10px;
+}
+
+footer .bottomWrap .logoSnS{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+ footer .bottomWrap .logoSnS img {
+   width: 180px;
+ }
+
+ footer .info span{
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 2rem;
+ }
+
+footer .info p {
+  color: #f4f4f4;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+
+
+
+/* Top메뉴 */
+
+footer .top_move {
+  display: flex;
+  width: 60px;
+  height: 60px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 0;
+  z-index: 90;
+  box-shadow: 0 0 10px #3b3b3b86;
+  transition: all .5s;
 }
 
-.App-link {
-  color: #61dafb;
+footer .top_move.up {
+  opacity: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer .top_move.down {
+  opacity: 1;
+}
+
+footer .topMenuIcon{
+  font-size: 1.5rem;
+  color: #005BAC;
+  font-weight: 700;
+}
+
+
+footer .top_move:hover {
+  background: #005BAC;
+  border: 1px solid #fff;
+}
+
+footer .top_move:hover .topMenuIcon {
+  color: #fff;
+}
+
+
+/* 미디어쿼리 */
+@media screen and (max-width:1460px) {
+
+  footer .footerInner{
+   font-size: .9rem;
   }
-  to {
-    transform: rotate(360deg);
+    footer .top{
+    gap: 10px;
   }
+
+  footer .info span {
+    font-size: .95rem;
+    line-height: 1.5rem;
+  }
+  footer .info p {
+    font-size: .95rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width:1280px) {
+
+  header .header_inner nav {
+    width: 70%;
+  }
+
+  /* header.down .header_inner:hover nav {
+    width: 75%;
+  } */
+
+  footer .bottomWrap .info{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:1050px) {
+
+  header .header_inner nav ul li a {
+      font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+
+  header .header_inner nav ul li a{
+    font-size: 1.2rem;
+  }
+
+  header .header_inner nav {
+    width: 60%;
+  }
+
+  /* header.down .header_inner:hover nav {
+    width: 70%;
+  } */
+
+  footer .footerInner{
+    width: 80%;
+  }
+
+  footer .top_move {
+    width: 50px;
+    height: 50px;
+  }
+  footer .top_move:hover .topMenuIcon{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width:1000px){
+
+  footer .info span{
+    font-size: .9rem;
+    line-height: 1.5rem;
+    width: max-content;
+  }
+
+  footer .info p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width:900px){
+  footer .top {
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+  header .header_inner nav ul li a{
+    font-size: 1.1rem;
+  }
+
+  header .header_inner nav {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  header.up{
+    background: #fff;
+  }
+
+  header .header_inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header .header_inner {
+    display: block;
+    height: 85px;
+  }
+
+  header .header_inner nav {
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    height: 0;
+    overflow: hidden;
+    transition: all .5s;
+  }
+  header.down .header_inner{
+    height: 85px;
+  }
+  /* header.down .header_inner:hover nav {
+    width: 100%;
+  } */
+
+  header .header_inner nav.show {
+    height: 100vh;
+    width: 100%;
+  }
+
+
+  header .header_inner nav.hide {
+    height: 0;
+    width: 100%;
+  }
+
+  header .header_inner nav ul {
+    display: block;
+    margin-top: 30px;
+  }
+
+  header .header_inner nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  header .header_inner nav ul li a {
+    display: flex;
+    height: 90px;
+    transition: all .5s;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  header .header_inner nav ul li a:hover {
+    background: #007aff;
+    color: #fff;
+  }
+
+  header button {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:640px) {
+
+  header .header_inner nav ul li a{
+      font-size: 1.3rem;
+      height: 80px;
+    }
+  footer .bottomWrap{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  footer .bottomWrap .logoSnS{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  footer .sns{
+    font-size: 1.8rem;
+  }
+
+  .visual .visualBox img{
+    height: 500px;
+    object-fit: cover;
+  }
+  .visual .visualBox img{
+    height: 500px;
+  }
+
 }

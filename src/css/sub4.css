@@ -1,0 +1,59 @@
+/* 임시 */
+.sub4 .sub_visual { height: 400px; background: url(../images/fee/fee_visual.png); display: flex; justify-content: center; align-items: center; font-size: 3rem; color: #fff; font-weight: 600;}
+.sub4 .sub_visual strong {font-size: 2rem; position: absolute; width: 100%; text-align: center; top: 250px;}
+
+.sub4 .title{text-align: center;margin-top: 150px;}
+.sub4 .title h3{font-size: 3rem;}
+.sub4 .title p{font-size: 1.5rem; color: #0166B3; font-weight: 600;}
+
+.sub4 .content {padding: 100px 0;}
+.sub4 .content .inner {width: 80%; margin: 0 auto;}
+.sub4 .content .inner .select_dep {display: flex; align-items: center; gap: 20px;}
+.sub4 .content .inner .select_dep p {color: #000; font-size: 1.5em; font-weight: 600;}
+
+.sub4 .content .inner .tck_box {margin-top: 30px;}
+.sub4 .content .inner .tck_box .tck_lst {border: 1px solid #DDD; display: flex; text-align: center; align-items: center; border-radius: 15px; padding: 20px 0 20px 30px; position: relative; overflow: hidden; margin-bottom: 15px; background: #fff; box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, .1); transition: .3s ;}
+.sub4 .content .inner .tck_box .tck_lst:hover {background: #eee; transform: translateY(-5px);}
+.sub4 .content .inner .tck_box .tck_lst::before {content: ""; display: block; width: 8px; height: 100%; position: absolute; left: 0; top: 0; background: #005BAC;}
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(1) {width: 8%; width: 130px; display: flex; align-items: center;}
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(1) img {width: 100%;}
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(2) {width: 100%; font-size: 1.5em; font-weight: 600;}
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(3),
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(4),
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(5) {width: 20%; display: flex; flex-direction: column; border-left: 1px solid #ccc;}
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(3) strong,
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(4) strong,
+.sub4 .content .inner .tck_box .tck_lst div:nth-of-type(5) strong {color: #000; font-size: 1.2em; font-weight: 500;}
+
+.sub4 .inner .select_dep fieldset {border-radius: 20px; border: 2px solid #0166b3;}
+/* 로컬 */
+.sub4 .css-1tlcqt-MuiAutocomplete-root {width: 180px;}
+.sub4 .css-113d811-MuiFormLabel-root-MuiInputLabel-root {display: none;}
+.sub4 .css-1tlcqt-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {font-size: 1.2em; font-weight: 600;}
+
+/* build */
+.sub4 .css-1niro10 {display: none;}
+.sub4 .MuiAutocomplete-root {width: 180px;}
+.sub4 .css-1hdoajr .MuiOutlinedInput-root .MuiAutocomplete-input {font-size: 1.2em; font-weight: 600;}
+
+@media (max-width: 1024px) {
+    .sub4 .content .inner .tck_box .tck_lst {padding: 20px 30px;}
+    .sub4 .content .inner .tck_box .tck_lst {flex-wrap: wrap;}
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(1) {width: 60px;}
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(2) {border-bottom: 1px solid #ccc; margin: 10px 0; padding-bottom:15px;}
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(3) {border-left: initial;}
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(3), 
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(4), 
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(5) {width: 33%;}
+}
+
+@media (max-width: 768px) {
+    .sub4 .content .inner {width: 90%;}
+}
+
+@media (max-width: 640px) {
+    .sub4 .content .inner {width: 95%;}
+    .sub4 .content .inner .tck_box .tck_lst {padding: 20px;}
+    .sub4 .content .inner .tck_box .tck_lst div:nth-of-type(2) {font-size: 1.3em;}
+
+}

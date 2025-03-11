@@ -1,0 +1,39 @@
+.mapInner .mapBox{width: 70%; height: 550px; margin: 150px auto;}
+.mapTop, .mapBottom{width: 70%; margin: 0 auto; display: flex;
+border-top: 2px solid #0166B3; margin-bottom: 100px; padding-top: 30px;}
+.mapText{margin-top: 50px;}
+.mapTop strong{font-size: 2rem; font-weight: 600; width: 40%;}
+.mapBottom strong{font-size: 2rem; font-weight: 600;  width: 40%;}
+.mapTop p{line-height: 2rem; text-align: left;}
+.mapBottom p{line-height: 2rem; text-align: left;}
+
+@media screen and (max-width:1280px){
+    .mapTop, .mapBottom{width: 80%;}
+    .mapInner .mapBox{width: 80%;}
+
+}
+
+
+@media screen and (max-width:1024px){
+    .mapTop strong{font-size: 1.6rem;}
+    .mapBottom strong{font-size: 1.6rem;}
+
+}
+
+
+@media screen and (max-width:768px){
+    .mapTop, .mapBottom{width: 90%; flex-direction: column;}
+    .mapInner .mapBox{width: 90%;}
+    .mapTop strong{width: 100%; font-size: 1.4rem; margin-bottom: 20px;}
+    .mapBottom strong{width: 100%; font-size: 1.4rem; margin-bottom: 20px;}
+
+
+
+
+
+}
+
+
+@media screen and (max-width:640px){
+    
+}
