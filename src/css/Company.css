@@ -19,3 +19,8 @@
 .css-1cuoivm{padding-top:100px}
 .css-hzcega-MuiTabs-list{justify-content: center;}
 .css-162tvoi{justify-content: center;}
+
+@media (max-width: 640px) {
+    .css-hzcega-MuiTabs-list .css-h0ykxa-MuiButtonBase-root-MuiTab-root {font-size: 1em; padding: 12px 0; width: 33%;}
+    
+}

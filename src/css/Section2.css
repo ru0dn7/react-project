@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width:768px){
-    .company{width: 90%;}
+    .company{width: 90%; overflow: hidden;}
     .box{flex-direction: column;}
     .box .box_left img{width: 100%; height: 400px;}
     .box .box_right ul{height: 20vh;}
@@ -73,10 +73,10 @@
 
 
 @media screen and (max-width:650px){
-    .box{width: 95%;}
+    .box{width: 100%;}
     .company .text1{font-size: 1.1rem;}
     .company .text2{font-size: 2rem;}
-    .box .box_right ul{height: 10vh; width: 145px;}
+    .box .box_right ul{height: 12vh; width: 145px;}
     .box_right ul li dl dd:nth-of-type(2){display: none;}
     .box_right ul li dl dd:nth-of-type(1){font-size: 1.2rem;}
     .box .box_right ul.on li dl dd:nth-of-type(1){font-size: 1.2rem;}
@@ -86,7 +86,7 @@
 @media screen and (max-width:550px){
     .box_right ul li dl dt {font-size: .8rem;}
     .box .box_right{display: flex; flex-direction: column;}
-    .box .box_right ul { width: 95%;}
+    .box .box_right ul {box-sizing: border-box; padding: 20px 25px; width: 100%;}
 }
 
 @media screen and (max-width:360px){

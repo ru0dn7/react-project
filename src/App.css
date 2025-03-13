@@ -448,9 +448,6 @@ footer .top_move:hover .topMenuIcon {
   header.down .header_inner{
     height: 85px;
   }
-  /* header.down .header_inner:hover nav {
-    width: 100%;
-  } */
 
   header .header_inner nav.show {
     height: 100vh;
@@ -491,6 +488,10 @@ footer .top_move:hover .topMenuIcon {
     display: block;
   }
 
+  footer .footerInner{
+    width: 90%;
+  }
+
 }
 
 @media screen and (max-width:640px) {
@@ -520,5 +521,8 @@ footer .top_move:hover .topMenuIcon {
   .visual .visualBox img{
     height: 500px;
   }
+
+}
+@media screen and (max-width:360px){
 
 }

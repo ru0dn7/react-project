@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# React를 활용한 Team Project - Korail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 개요
+**Korail** 프로젝트는 5명의 팀원으로 구성된 협업 프로젝트를 진행하였습니다. 
+이 프로젝트에서는 **React**를 사용하여 웹 페이지를 개발했으며, JSON 데이터를 활용하여 정적인 방식으로 열차 운임 정보를 제공하였습니다.
 
-## Available Scripts
+## 역할
+- **열차운임조회** 섹션 및 **열차운임표** 서브페이지 전담
+- **React**를 사용하여 컴포넌트 기반 UI 설계
+- **JSON** 데이터를 활용하여 열차 운임 정보 표시
+- 정적인 JSON 파일을 사용해 데이터를 로드하고 페이지에 렌더링
 
-In the project directory, you can run:
+## 사용 기술
+- **React** (JSX, 컴포넌트 구조)
+- **HTML5**, **CSS3**, **JavaScript**
+- **JSON** (정적인 데이터 사용)
+- **Git** 및 **GitHub** (버전 관리 및 협업)
 
-### `npm start`
+## 주요 기능
+- **열차운임조회**: 사용자가 입력한 출발지와 도착지에 맞는 열차 운임을 **JSON** 데이터를 기반으로 조회할 수 있는 기능
+- **열차운임표**: 주요 노선의 열차 운임 정보를 **JSON** 데이터 파일에서 불러와 테이블 형식으로 제공
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 협업 및 기여
+프로젝트는 Git을 통해 협업하며 각자 역할을 분담하고, GitHub를 이용해 효율적으로 소스를 관리했습니다. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+팀원들과의 긴밀한 커뮤니케이션을 통해 UI/UX 디자인 및 기능 구현에 대한 피드백을 주고받았습니다.
 
-### `npm test`
+## 결론
+**Korail** 프로젝트는 React를 사용한 정적 데이터 기반 웹 애플리케이션 개발을 경험하며, 데이터를 효율적으로 관리하고 사용자에게 직관적인 인터페이스를 제공하는 방법을 배운 프로젝트였습니다. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+앞으로도 이러한 경험을 바탕으로 더 나은 웹 개발자로 성장해 나가겠습니다.

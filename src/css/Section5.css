@@ -120,15 +120,18 @@
     }
 
     @media (max-width: 640px) {
+        .vr {overflow: hidden;}
+        .vr .VrTour ul li:nth-of-type(1){
+            left: 170px;
+            bottom: 200px;
+        }
         .vr .text1{  font-size: 1.1rem; margin-bottom: 10px;}
         .vr .text2{font-size: 2rem; line-height: 2.9rem;}
     }
 
     @media (max-width: 360px) {
-        .vr .VrTour ul li:nth-of-type(1){
-            left: 140px;
-            bottom: 190px;
-        }
+       
+   
         .vr .VrTour ul li:first-child a,
         .vr .VrTour ul li:nth-child(3) a{
             margin-left: 10px;
